@@ -1,0 +1,87 @@
+ .card {
+   font-family: 'Open Sans', sans-serif;
+   width: 560px;
+   height: 250px;
+   padding: 5px 15px;
+   border: 1px solid #DFDFDF;
+   border-radius: 5px;
+   margin: 15px;
+   align-items: center;
+   justify-content: space-between;
+   font-size: 12px;
+   margin: 0 auto;
+ }
+
+ .card-inner {
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+ }
+
+ .card-img {
+   width: 190px;
+   height: 200px;
+   padding-top: 30px;
+   padding-left: 10px;
+ }
+
+ .card-body {
+   width: 360px;
+   padding: 0 20px;
+ }
+
+ .card-flex {
+   padding: 4px;
+   display: flex;
+   justify-content: start;
+ }
+
+ .city {
+   font-size: 28px;
+   color: slateblue;
+ }
+
+ .title, .dropdown {
+   font-size: 20px;
+   text-align: center;
+   font-family: 'Open Sans', sans-serif;
+ }
+
+ .description {
+   font-size: 28px;
+   padding-right: 10px;
+   color: indianred;
+ }
+
+ .body_text {
+   font-size: 22px;
+   padding-right: 10px;
+ }
+
+ .description_body {
+   font-size: 22px;
+   padding-right: 5px;
+ }
+
+ .form-item {
+   padding: 20px;
+   text-align: center;
+ }
+
+ label.dropdown {
+   color: royalblue;
+ }
+
+ select#city {
+   margin-left: 10px;
+   padding: 5px;
+   font-size: 26px;
+   color: slateblue;
+   border-radius: 8px;
+   border-color: royalblue;
+   outline: none;
+ }
+
+ label.dropdown {
+   font-size: 26px;
+ }
